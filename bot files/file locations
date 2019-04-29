@@ -1,2 +1,14 @@
 The files in this folder should be stored on the robot itself. They can be sent over using SCP or serve
 as guides for modifying the built in code on the bot.
+
+The start_user.sh file should be stored on the root directory of the bot located at /.
+
+The user_ready.sh and bridge_control.sh files should be stored in the bin folder located at ~/bin/. 
+These files are only slightly modified from their built in conditions. The user_ready.sh file has 
+running roscore added as an instruction, and bridge_control.sh has a call to start_user.sh and creating 
+log files included under # start bridge.
+
+The Initiator.py, interfaces.py, and PrimaryHandler.py files should be stored in the home directory 
+located at ~/.
+
+
