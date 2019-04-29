@@ -1,0 +1,2 @@
+The files in this folder should be stored on the robot itself. They can be sent over using SCP or serve
+as guides for modifying the built in code on the bot.
